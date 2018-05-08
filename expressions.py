@@ -1,3 +1,4 @@
+"""
 def expression_matter(a, b, c):
     array_of_answers = []
     sol = a * (b + c)
@@ -16,6 +17,13 @@ def expression_matter(a, b, c):
     array_of_answers = sorted(array_of_answers)
     return (array_of_answers[-1])
 
+"""
 
+# old method above, more efficient method below
+
+def expression_matter(a, b, c):
+    print (max(a*b*c, a+b+c, (a+b)*c, a*(b+c) ) )
+    return (max(a*b*c, a+b+c, (a+b)*c, a*(b+c) ) )
+    
 
 expression_matter(2,1,2)
