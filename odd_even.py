@@ -1,13 +1,5 @@
 def oddOrEven(arr):
-    sum = 0
-    for x in arr:
-        sum += x
-    if sum % 2 == 0:
-        print ("even")
-        return "even"
-    else:
-        print ("odd")
-        return "odd"
+    return 'even' if sum(arr) % 2 == 0 else 'odd'
 
 
 oddOrEven([0,1,2])
