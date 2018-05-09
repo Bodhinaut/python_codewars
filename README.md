@@ -20,3 +20,9 @@ You cannot swap the operands. For instance, in the given example you cannot get 
 Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: array may be empty, in this case return 0.
+
+
+### oddOrEven
+
+* take in integer array, sum its components, return if the sum is odd or 
+even with 'odd' or 'even'
