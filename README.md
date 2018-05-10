@@ -26,3 +26,9 @@ Note: array may be empty, in this case return 0.
 
 * take in integer array, sum its components, return if the sum is odd or 
 even with 'odd' or 'even'
+
+
+### Thinkful - Logic Drills: Traffic light update_light
+* You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+
+Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
