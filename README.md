@@ -40,3 +40,8 @@ Complete the function that takes a string as an argument representing the curren
 The returned value must be a string, and have "***" between each of its letters.
 
 You should not remove or add elements from/to the array.
+
+
+### grasshopper_sum
+* write a program that finds the summation of every number between 1 and 
+num. The number will always be a positive integer greater than 0.
