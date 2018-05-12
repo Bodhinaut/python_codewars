@@ -48,3 +48,6 @@ num. The number will always be a positive integer greater than 0.
 
 ### combat.py
 * returns health after damage
+
+### reverse_seq
+* return reverse sequence with input n
