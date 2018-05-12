@@ -45,3 +45,6 @@ You should not remove or add elements from/to the array.
 ### grasshopper_sum
 * write a program that finds the summation of every number between 1 and 
 num. The number will always be a positive integer greater than 0.
+
+### combat.py
+* returns health after damage
