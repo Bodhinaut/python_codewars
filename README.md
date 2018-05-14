@@ -51,3 +51,13 @@ num. The number will always be a positive integer greater than 0.
 
 ### reverse_seq
 * return reverse sequence with input n
+
+### reverse a number reverse_number
+* Given a number, write a function to output its reverse digits. (e.g. given 123 the answer is 321)
+
+Numbers should preserve their sign; i.e. a negative number should still be negative when reversed.
+
+Examples
+ 123 ->  321
+-456 -> -654
+1000 ->    1
