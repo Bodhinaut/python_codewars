@@ -1,16 +1,7 @@
-def reverse_number(n):
-    boolNeg = False
-    if n < 0:
-        boolNeg = True
-    stringN = str(n)
-    list(stringN)
-    if stringN[0] == "-":
-        stringN = stringN[1:]
-    stringN = stringN[::-1]
-    stringN = int(stringN)
-    if boolNeg == True:
-        stringN *= -1
-    print(stringN)
-    return stringN
+def reverseNumber(n):
+    if n >= 0:
+        return int(str(n)[::-1])
+    else:
+        return int(str(n).strip('-')[::-1])*-1
 
-reverse_number(-123)
+reverseNumber(-123)
