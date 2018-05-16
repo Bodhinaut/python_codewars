@@ -71,3 +71,11 @@ We know the content of the evaporator (content in ml), the percentage of foam or
 The program reports the nth day (as an integer) on which the evaporator will be out of use.
 
 Note : Content is in fact not necessary in the body of the function "evaporator", you can use it or not use it, as you wish. Some people might prefer to reason with content, some other with percentages only. It's up to you but you must keep it as a parameter because the tests have it as an argument.
+
+
+### array_mean
+* It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+Return the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
