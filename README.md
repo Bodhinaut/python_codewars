@@ -107,3 +107,14 @@ Note : duplications are not included when summing , (i.e) the numbers added only
 Explanation:
 As the triplet that maximize the sum {12 , 29 , 0} in order , their sum is (41) ,
 Note : duplications are not included when summing , (i.e) the numbers added only once .
+
+
+### arabian_string
+* You must create a method that can convert a string from any format into CamelCase. This must support symbols too.
+
+Don't presume the separators too much or you could be surprised.
+
+Tests
+camelize("example name")   # => ExampleName
+camelize("your-NaMe-here") # => YourNameHere
+camelize("testing ABC")    # => TestingAbc
