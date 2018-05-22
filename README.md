@@ -139,3 +139,7 @@ Another example (just to make sure it is clear):
 
 gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
+
+
+### word_digit_count
+* print count of words and digits in user input
