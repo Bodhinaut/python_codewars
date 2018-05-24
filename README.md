@@ -158,3 +158,6 @@ array_diff([1,2,2,2,3],[2]) == [1,3]
 
 ### powers_of_two
 Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n (inclusive).
+
+### most_frequent
+Complete the function to find the count of the most frequent item of an array. You can assume that input is an array of integers. For an empty array return 0
