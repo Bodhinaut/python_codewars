@@ -154,3 +154,7 @@ array_diff([1,2],[1]) == [2]
 If a value is present in b, all of its occurrences must be removed from the other:
 
 array_diff([1,2,2,2,3],[2]) == [1,3]
+
+
+### powers_of_two
+Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n (inclusive).
