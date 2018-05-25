@@ -161,3 +161,15 @@ Complete the function that takes a non-negative integer n as input, and returns 
 
 ### most_frequent
 Complete the function to find the count of the most frequent item of an array. You can assume that input is an array of integers. For an empty array return 0
+
+### mumbling
+* accum(s)
+
+This time no story, no theory. The examples below show you how to write function accum:
+
+Examples:
+
+accum("abcd")    # "A-Bb-Ccc-Dddd"
+accum("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt")    # "C-Ww-Aaa-Tttt"
+The parameter of accum is a string which includes only letters from a..z and A..Z.
