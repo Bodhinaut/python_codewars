@@ -19,7 +19,43 @@ def accum(s):
 	for value in stored_string:
 		answer += value
 
-	return (answer)
+	print (answer)
+	# return (answer)
 
 
 accum("abcd")
+
+
+
+# below are shorter versions
+'''
+
+def accum(s):
+    output = ""
+    for i in range(len(s)):
+        output+=(s[i]*(i+1))+"-"
+    return output.title()[:-1]
+
+
+# --------------------------------------
+
+def accum(s):
+    return '-'.join((a * i).title() for i, a in enumerate(s, 1))
+
+
+
+
+# end shorter versions 
+
+
+'''
+
+
+
+
+
+
+
+
+
+
