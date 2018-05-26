@@ -1,3 +1,4 @@
+'''
 def sort_by_length(arr):
     newlist = []
     newlist.append(arr[0])
@@ -13,6 +14,10 @@ def sort_by_length(arr):
                 newlist.append(i)
                 break
     return newlist
+'''
 
+
+def sort_by_length(arr):
+    return sorted(arr, key=len)
 
 sort_by_length(["beg", "life", "i", "to"])
