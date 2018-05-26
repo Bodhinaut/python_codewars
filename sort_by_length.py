@@ -1,30 +1,18 @@
 def sort_by_length(arr):
-	short_to_long = []
-
-	index = 0
-	while index < len(arr) - 1:
-		#print (len(arr[index]) )
-		if len(arr[index]) > len(arr[index + 1]):
-			temp = arr[index + 1]
-			del arr[index + 1]
-			arr.insert(index, temp)
-
-		index += 1
-
-	index = 0
-	while index < len(arr) - 1:
-		#print (len(arr[index]) )
-		if len(arr[index]) > len(arr[index + 1]):
-			temp = arr[index + 1]
-			del arr[index + 1]
-			arr.insert(index, temp)
-
-		index += 1
-
-
-
-
-	print(arr)
+    newlist = []
+    newlist.append(arr[0])
+    for i in arr[1:]:
+        for x in range(len(newlist)):
+            if len(i) < len(newlist[0]):
+                newlist.insert(0,i)
+                break
+            elif len(i) < len(newlist[x]):
+                newlist.insert(x,i)
+                break
+            elif len(i) > len(newlist[-1]):
+                newlist.append(i)
+                break
+    return newlist
 
 
 sort_by_length(["beg", "life", "i", "to"])
