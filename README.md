@@ -203,3 +203,6 @@ Alice's band plays a Nirvana inspired grunge and has been rated 20 for Heaviness
 The total score should be followed by a colon : and by one of the following quotes: if Alice's band wins: Alice made "Kurt" proud! if Bob's band wins: Bob made "Jeff" proud! if they end up with a draw: that looks like a "draw"! Rock on!
 
 The solution to the example above should therefore appear like '1, 2: Bob made "Jeff" proud!'.
+
+### practice_review.py
+* practice and review the challenges in this repository
