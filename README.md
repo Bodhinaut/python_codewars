@@ -206,3 +206,7 @@ The solution to the example above should therefore appear like '1, 2: Bob made "
 
 ### practice_review.py
 * practice and review the challenges in this repository
+
+
+### practice_chap_6.py3.py
+* practice with dictionaries in python with the Python Crash Course book
