@@ -42,3 +42,27 @@ def solve(a, b):
 
 
 solve([47, 7, 2], [47, 7, 2])
+
+
+
+
+
+'''
+def solve(a, b):    
+    result_a, result_b = 0, 0     
+    for i in range(len(a)):
+        if a[i] > b[i]:
+            result_a += 1
+        elif a[i] < b[i]:
+            result_b += 1
+            
+    if result_a > result_b:
+        return '{}, {}: Alice made "Kurt" proud!'.format(result_a, result_b)
+    elif result_a < result_b:
+        return '{}, {}: Bob made "Jeff" proud!'.format(result_a, result_b)
+    else:
+        return '{}, {}: that looks like a "draw"! Rock on!'.format(result_a, result_b)
+
+'''
+
+# Above is another way to solve this challenge
