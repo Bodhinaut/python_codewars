@@ -141,8 +141,8 @@ gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
 
-### word_digit_count
-* print count of words and digits in user input
+### word_digit_count - not codewars
+* print count of words and digits in user input, uses dict
 
 
 ### array_diff
@@ -208,5 +208,5 @@ The solution to the example above should therefore appear like '1, 2: Bob made "
 * practice and review the challenges in this repository
 
 
-### practice_chap_6.py3.py
+### practice_chap_6.py3.py - not codewars
 * practice with dictionaries in python with the Python Crash Course book
