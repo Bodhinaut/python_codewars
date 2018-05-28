@@ -141,8 +141,8 @@ gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
 
-### word_digit_count
-* print count of words and digits in user input
+### word_digit_count - not codewars
+* print count of words and digits in user input, uses dict
 
 
 ### array_diff
@@ -203,3 +203,16 @@ Alice's band plays a Nirvana inspired grunge and has been rated 20 for Heaviness
 The total score should be followed by a colon : and by one of the following quotes: if Alice's band wins: Alice made "Kurt" proud! if Bob's band wins: Bob made "Jeff" proud! if they end up with a draw: that looks like a "draw"! Rock on!
 
 The solution to the example above should therefore appear like '1, 2: Bob made "Jeff" proud!'.
+
+### practice_review.py
+* practice and review the challenges in this repository
+
+
+### practice_chap_6.py3.py - not codewars
+* practice with dictionaries in python with the Python Crash Course book
+
+
+### find_the_odd_int
+Given an array, find the int that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
