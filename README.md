@@ -210,3 +210,9 @@ The solution to the example above should therefore appear like '1, 2: Bob made "
 
 ### practice_chap_6.py3.py - not codewars
 * practice with dictionaries in python with the Python Crash Course book
+
+
+### find_the_odd_int
+Given an array, find the int that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
