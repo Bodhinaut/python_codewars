@@ -1,5 +1,5 @@
 value = []
-items = [x for x in input("Please input 4 binary numbers seperated by commas: ").split(',')]
+items = [x for x in input("Please input 4 digit binary numbers seperated by commas: ").split(',')]
 
 for p in items:
 	intp = int(p, 2)
