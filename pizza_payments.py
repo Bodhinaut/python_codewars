@@ -16,4 +16,12 @@ def michael_pays(costs):
 
 
 
-michael_pays(28.789)
+michael_pays(28.789) # test case
+
+
+# below is a cleaner and more efficient verison
+
+def michael_pays(cost):
+    return round(cost if cost <= 5 else max(cost*2/3, cost-10), 2)
+
+michael_pays(28.789) # testing method
