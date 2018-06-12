@@ -220,3 +220,10 @@ There will always be only one integer that appears an odd number of times.
 ### solving_numbers
 
 Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
+
+### pizza_payments
+Kate and Michael want to buy a pizza and share it. Depending on the price of the pizza, they are going to divide the costs:
+
+If the pizza is less than €5,- Michael invites Kate (i.e. he is paying the full price)
+Otherwise Kate will also contribute 1/3 of the price, but no more than €10 (she's broke :-) Thus, Michael will pay 2/3 of the costs, or more.
+How much is Michael going to pay? Calculate the amount with two decimals, if necessary.
