@@ -227,3 +227,6 @@ Kate and Michael want to buy a pizza and share it. Depending on the price of the
 If the pizza is less than €5,- Michael invites Kate (i.e. he is paying the full price)
 Otherwise Kate will also contribute 1/3 of the price, but no more than €10 (she's broke :-) Thus, Michael will pay 2/3 of the costs, or more.
 How much is Michael going to pay? Calculate the amount with two decimals, if necessary.
+
+
+### pony_express
