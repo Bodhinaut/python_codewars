@@ -227,3 +227,21 @@ Kate and Michael want to buy a pizza and share it. Depending on the price of the
 If the pizza is less than €5,- Michael invites Kate (i.e. he is paying the full price)
 Otherwise Kate will also contribute 1/3 of the price, but no more than €10 (she's broke :-) Thus, Michael will pay 2/3 of the costs, or more.
 How much is Michael going to pay? Calculate the amount with two decimals, if necessary.
+
+
+### pony_express
+
+The Pony Express was a mail service operating in the US in 1859-60.
+It reduced the time for messages to travel between the Atlantic and Pacific coasts to about 10 days, before it was made obsolete by the transcontinental telegraph.
+
+How it worked
+There were a number of stations, where:
+
+The rider switched to a fresh horse and carried on, or
+The mail bag was handed over to the next rider
+Kata Task
+stations is a list/array of distances (miles) from one station to the next along the Pony Express route.
+
+Implement the riders method/function, to return how many riders are necessary to get the mail from one end to the other.
+
+NOTE: Each rider travels as far as he can, but never more than 100 miles.
