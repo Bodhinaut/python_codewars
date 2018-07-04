@@ -260,3 +260,8 @@ Example:
 When two numbers have the same "weight", let us class them as if they were strings and not numbers: 100 is before 180 because its "weight" (1) is less than the one of 180 (9) and 180 is before 90 since, having the same "weight" (9) it comes before as a string.
 
 All numbers in the list are positive numbers and the list can be empty.
+
+Notes
+it may happen that the input string have leading, trailing whitespaces and more than a unique whitespace between two consecutive numbers
+Don't modify the input
+For C: The result is freed.
